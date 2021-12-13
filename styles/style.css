@@ -1,0 +1,333 @@
+
+
+/*___~~~~~~~~~~~ GERAL ~~~~~~~~~~~~___*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    color:#efeffd;
+}
+
+
+
+/*___~~~~~~~~~~~ HEADER ~~~~~~~~~~___*/
+
+button:hover{
+    cursor: pointer;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    padding: 3.125rem;
+    background: linear-gradient(to left, #a37fe7, #200a47);
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .container{
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+  
+  .header {
+    margin-bottom: 3.438rem;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .logo{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.7em;
+    text-shadow: 0.125rem 0.063rem 1.063rem;
+    border-bottom: 0.063rem solid groove #c2a0e9;
+    border-radius: 4%;
+    
+  }
+  
+  .logo2 {
+  
+    margin-left: 1.25rem;
+    width: 12.5rem;
+  
+  }
+
+
+  
+
+  
+  /*___~~~~~~~~~~~ MENU ~~~~~~~~~~~~___*/
+
+
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li{
+    position: relative;
+    list-style-type: none;
+  }
+  nav ul li a{
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0 2.188rem;
+    border-right: 0.063rem solid #fff;
+    transition: all .5s ease-in-out;
+  }
+  nav ul li a:hover{
+    color: #d19616;
+  }
+  nav ul li:last-child a{
+    border-right: none;
+  }
+
+
+
+
+
+  /*___~~~~~~~~ TITULO E PARÁGRAFOS ~~~~~~~___*/
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#sobre{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 3.125rem;
+
+}
+
+
+.sobre_image {
+
+     justify-self: center;
+  
+
+}
+
+
+#sobre h5{
+    font-weight: 400;
+    font-size: 1.1em;
+}
+#sobre h1{
+    position: relative;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+#sobre p{
+    font-size: 0.87rem;
+    margin-bottom: 3.125rem;
+    text-align: justify;
+    line-height: 2;
+    font-weight: 400;
+    margin-left: 0.8rem;
+    max-width:36.25rem;
+
+}
+
+
+
+
+/*___~~~~~~~ BOTÕES / QUADRO  ~~~~~~~___*/
+
+#sobre button{
+    color: #d19616;
+    font-weight: bold;
+    position: relative;
+    padding: 0.625rem 2.188rem 1.25rem 3.75rem;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    transition: all .5s ease-in-out;
+}
+
+
+#sobre button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff25;
+    width: 30%;
+    height: 100%;
+    border-radius: 3px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+}
+#sobre button:hover::before{
+    width: 100%;
+}
+#sobre button:hover{
+    color: rgb(219, 219, 219);
+}
+#sobre img{
+   max-width: 31.25rem;
+   max-height: 31.25rem;
+}
+#sub-content{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+#sub-content .sub_esquerda{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to left, #a68ed4, #2e1163);
+    height: 12.5rem;
+    min-height: 12.5rem;
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding: 2.5rem 1.25rem 1.25rem;
+}
+#sub-content .sub_esquerda p{
+    width: 80%;
+    max-width: 31.25rem;
+    
+}
+#sub-content .sub_esquerda img{
+    position: absolute;
+    top: 15px;
+    right: -4.688rem;
+    border: 0.813rem solid #dfdae9;
+}
+#sub-content .sub_esquerda button{
+    position: relative;
+    background: none;
+    border: none;
+    margin-top: 0.938rem;
+    transition: all .5s ease-in-out;
+}
+#sub-content .sub_esquerda button::after{
+    content: '::-';
+    position: absolute;
+    right: -1.563rem;
+    transition: all .5s ease-in-out;
+}
+#sub-content .sub_esquerda button:hover::after{
+    right: -2.188rem;
+    color: #d19616;;
+}
+#sub-content .sub_esquerda button:hover{
+    color: #d19616;
+}
+
+
+
+/*___~~~~~~ FOOTER: REDES SOCIAIS / CONTATO ~~~~~~~___*/
+
+
+#sub-content .social-icons img{
+    position: relative;
+    top: 0;
+    width: 2.5rem;
+    margin: 9.375rem 0.313rem 0px 0.625rem;
+    border-radius: 50%;
+    opacity: .8;
+    transition: all .5s ease-in-out;
+}
+#sub-content .social-icons img:hover{
+    top: -0.938rem;
+}
+
+
+.sub_direita {
+        justify-self: center;
+} 
+
+
+
+
+
+/*__~~ Responsividade c/ Media Queries 
+
+          Créditos: Prof Mayk Brito, Rockeseat  💜 ~~~~__*/
+
+
+          /* @media (max-width: 768px) {
+
+
+            html {
+                font-size: 50%;
+    
+        
+            }
+
+            #sub-content {
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+       
+
+        
+        
+        } */
+
+
+        @media (min-width: 700px) and (max-width: 1270px) {
+
+
+
+
+            #sub-content {
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            body {
+                font-size: 90%;
+            }
+
+            img {
+                width: 80%;
+            }
+
+            .sobre_image{
+                max-width: 500px;
+                margin-left: 100px;
+                margin-top: 120px;
+            }
+
+
+            .jovem {
+
+                max-width: 140px;
+
+            }
+
+            .sub_esquerda {
+
+                max-width: 400px;
+
+            }
+
+
+        }
+
+
+                               
+
+
+

@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="stylesheet" href="./styles/style.css"> 
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <header class="header">
             <nav>
                 <a href="index.html" class="logo">Rocket in Schools<img
-                        src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat.svg&w=256&q=100"
+                        src="./assets/img/rockeseat+ifood.png"
                         class="logo2"></a>
 
                 <ul>
@@ -35,38 +36,41 @@
         <main>
             <section id="sobre">
                 <div class="sobre_texto">
-                    <h1>Bora melhor o acesso a educação?</h1>
+                    <h1>Bora melhor a educação nas escolas?</h1>
                     <br>
 
-                    <p>A falta de acesso a educação de qualidade no Brasil com certeza é um dos maiores problemas
-                        enfrentados
-                        pela maior parte dos jovens. Os mais atingidos são os que moram em regiões mais desfavoráveis,
+                    <p>A falta de acesso à educação de qualidade no Brasil, com certeza é um dos maiores problemas enfrentados
+                        pela maior parte dos jovens. Os mais atingidos são os que moram em regiões desfavoráveis,
                         onde
                         o
-                        acesso a internet e outros meios são distantes, por conta das condições de vida que vivem.</p>
+                        acesso à internet e outras técnologias de ensino são inviáveis, por conta das condições de vida que se encontram.</p>
 
-                    <p>A ideia desse projeto é criar uma plataforma de estudo para uso público nas escolas, e fora
-                        também.
+                    <p>A Rocketseseat se juntou ao iFood e outros parceiros no Potência Tech, projeto de incentivo a programas de desenvolvimento. A ideia desse projeto é criar uma plataforma de estudo, com foco de uso público nas escolas, porém pode ser acessado em qualquer outro local,
                         Basta
                         criar um cadastro para ter acesso a todos conteúdos.
+                    </p>
+
+                    <p>
+                        Nessa plataforma, teremos conteúdos sobre: tecnologia, marketing, eSports, design, música e demais
+                        ensinos, que estimulam os jovens a desenvolver seus talentos e começar a trilhar sua carreira.
+
                     </p>
 
 
 
                     <button>Quero Participar</button>
                 </div>
-                <div class="sobre_image">
+                <div class="sobre_image" data-tilt data-tilt-scale="1.1">
                     <img src="./assets/img/livros.png" alt="livro">
                 </div>
             </section>
             <section id="sub-content">
                 <div class="sub_esquerda">
-                    <p>Nessa plataforma, teremos educação sobre: tecnologia, Marketing, eSports, Design, Música e demais
-                        ensinos
-                        que estimulam os jovens a desenvolver seus talentos e começar a trilhar sua carreira.
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor distinctio alias rerum? Unde similique dicta vel esse reiciendis, cupiditate sunt perferendis mollitia provident incidunt quaerat nesciunt ducimus, obcaecati ipsam eum.
                     </p>
                     <button>Continuar lendo</button>
-                    <img src="./assets/img/brjovem.png" alt="">
+                    <img src="./assets/img/brjovem.png" alt="Jovem" class="jovem" data-tilt data-tilt-axis="x">
                 </div>
 
                 <div class="sub_direita">
@@ -96,12 +100,18 @@
     </div>
 
 
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript" src="./scripts/vanilla-tilt.js"></script>
     <script type="text/javascript">
-        VanillaTilt.init(document.querySelector(".sobre_image"), {
+        VanillaTilt.init(document.querySelector(".sobre_image"),{
             max: 25,
             speed: 400
         });
+
+        VanillaTilt.init(document.querySelector(".jovem"),{
+            max: 25,
+            speed: 400
+        });
+
     </script>
 
 </body>
