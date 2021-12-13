@@ -294,6 +294,12 @@ button:hover{
                 margin-top: 120px;
             }
 
+            .logo3 {
+
+                width: 10%;
+
+            }
+
 
             .jovem {
 
@@ -347,6 +353,12 @@ button:hover{
         .jovem {
 
             max-width: 70px;
+
+        }
+
+        .logo3 {
+
+            width: 10%;
 
         }
 
