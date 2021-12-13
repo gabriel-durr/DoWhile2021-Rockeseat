@@ -263,26 +263,10 @@ button:hover{
           Créditos: Prof Mayk Brito, Rockeseat  💜 ~~~~__*/
 
 
-          /* @media (max-width: 768px) {
 
 
-            html {
-                font-size: 50%;
-    
-        
-            }
 
-            #sub-content {
-                display: flex;
-                flex-direction: column;
-                
-            }
-
-       
-
-        
-        
-        } */
+    /*Display Médio */
 
 
         @media (min-width: 700px) and (max-width: 1270px) {
@@ -301,11 +285,11 @@ button:hover{
             }
 
             img {
-                width: 80%;
+                width: 97%;
             }
 
             .sobre_image{
-                max-width: 500px;
+                max-width: 600px;
                 margin-left: 100px;
                 margin-top: 120px;
             }
@@ -319,7 +303,7 @@ button:hover{
 
             .sub_esquerda {
 
-                max-width: 400px;
+                max-width: 500px;
 
             }
 
@@ -327,6 +311,49 @@ button:hover{
         }
 
 
+
+
+    /*Display Pequeno */
+
+
+    @media (max-width: 700px) {
+
+
+        html {
+            font-size: 50%;
+
+    
+        }
+
+        #sub-content {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .sub_esquerda {
+
+            max-width: 280px;
+
+        }
+
+        
+
+        img {
+            width: 50%;
+        }
+
+
+        .jovem {
+
+            max-width: 70px;
+
+        }
+
+   
+
+    
+    }
                                
 
 
