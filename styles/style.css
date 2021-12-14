@@ -1,6 +1,9 @@
 
 
-/*___~~~~~~~~~~~ GERAL ~~~~~~~~~~~~___*/
+/*
+__~~~~~~~~~ GERAL ~~~~~~~~~~___
+
+*/
 
 
 *{
@@ -13,35 +16,35 @@
 
 
 
-/*___~~~~~~~~~~~ HEADER ~~~~~~~~~~___*/
+/*
+___~~~~~~~~~ HEADER ~~~~~~~~~___
 
-button:hover{
-    cursor: pointer;
-  }
-  body{
+*/
+
+body{
     font-family: 'Roboto', sans-serif;
     padding: 3.125rem;
     background: linear-gradient(to left, #a37fe7, #200a47);
     min-height: 100vh;
     line-height: 1.5;
     font-size: 1.125rem;
-  }
-  
-  .container{
+}
+
+.container{
     max-width: 90rem;
     margin: 0 auto;
-  }
-  
-  .header {
+}
+
+.header {
     margin-bottom: 3.438rem;
-  }
-  
-  nav{
+}
+
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  nav .logo{
+}
+nav .logo{
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.7em;
@@ -49,52 +52,77 @@ button:hover{
     border-bottom: 0.063rem solid groove #c2a0e9;
     border-radius: 4%;
     
-  }
-  
-  .logo2 {
-  
+}
+
+.logo2 {
+    
     margin-left: 1.25rem;
     width: 12.5rem;
-  
+    
+}
+
+.logo3 {
+
+    width: 10%;
+
+}
+
+
+
+
+
+/*
+___~~~~~~~~~ MENU ~~~~~~~~~~___
+
+*/
+
+
+
+button:hover{
+    cursor: pointer;
   }
 
-
-  
-
-  
-  /*___~~~~~~~~~~~ MENU ~~~~~~~~~~~~___*/
-
-
-  nav ul{
+nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  nav ul li{
+}
+nav ul li{
     position: relative;
-    list-style-type: none;
+        list-style-type: none;
+    }
+    nav ul li a{
+        position: relative;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1em;
+        padding: 0 2.188rem;
+        border-right: 0.063rem solid #fff;
+        transition: all .5s ease-in-out;
+    }
+    nav ul li a:hover{
+        color: #d19616;
+    }
+    nav ul li:last-child a{
+        border-right: none;
+    }
+    
+    
+    
+
+
+  /*
+  
+    ___~~~~~~ TITULO E PARÁGRAFOS ~~~~~___
+  
+
+  */
+
+  .titulo_inicio {
+      padding: 80px;
+      color: rgb(255, 251, 250);
+      text-shadow: 0px 1px 1px rgb(223, 70, 43);
   }
-  nav ul li a{
-    position: relative;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1em;
-    padding: 0 2.188rem;
-    border-right: 0.063rem solid #fff;
-    transition: all .5s ease-in-out;
-  }
-  nav ul li a:hover{
-    color: #d19616;
-  }
-  nav ul li:last-child a{
-    border-right: none;
-  }
-
-
-
-
-
-  /*___~~~~~~~~ TITULO E PARÁGRAFOS ~~~~~~~___*/
 
 
 .main {
@@ -168,9 +196,6 @@ max-width: 650px;
 
 margin-bottom: 3.125rem;
 
-
-
-
   
 
 }
@@ -178,7 +203,18 @@ margin-bottom: 3.125rem;
 
 
 
-/*___~~~~~~~ BOTÕES / QUADRO  ~~~~~~~___*/
+/*
+    ___~~~~~ BOTÕES / QUADRO  ~~~~~~___
+
+*/
+
+
+.botao {
+    max-width: 80%;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
 
 #sobre button{
     color: #d19616;
@@ -213,6 +249,7 @@ margin-bottom: 3.125rem;
 
 #sobre button:hover{
     color: rgb(219, 219, 219);
+    margin-right: 400px;
 }
 
 
@@ -274,7 +311,10 @@ margin-bottom: 3.125rem;
 
 
 
-/*___~~~~~~ FOOTER: REDES SOCIAIS / CONTATO ~~~~~~~___*/
+/*
+   __~~~~ FOOTER: REDES SOCIAIS / CONTATO ~~~__
+
+*/
 
 
 #sub-content .social-icons img{
@@ -299,15 +339,18 @@ margin-bottom: 3.125rem;
 
 
 
-/*__~~ Responsividade c/ Media Queries 
 
-          Créditos: Prof Mayk Brito, Rockeseat  💜 ~~~~__*/
+/* ~~ Responsividade c/ Media Queries 
+
+Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
+
+*/
 
 
 
 
 
-    /*Display Médio */
+    /* Display Médio  */
 
 
 
@@ -320,7 +363,7 @@ margin-bottom: 3.125rem;
           "paragrafo paragrafo"
           "botao ."
           /50% 1fr
-  
+        
   
         }
   
@@ -339,10 +382,11 @@ margin-bottom: 3.125rem;
       }
   
       .sobre_paragrafos {
-          max-width: 80%;
+          max-width: 100%;
       }
   
     
+  
   
   
   
@@ -458,7 +502,7 @@ margin-bottom: 3.125rem;
   
       .logo3 {
   
-          width: 10%;
+          width: 15%;
   
       }
   
@@ -495,16 +539,80 @@ margin-bottom: 3.125rem;
           "botao"
           /1fr 
       }
-  
-  
-      .social-icons {
-  
-          
-          display: flex;
-          flex-wrap: wrap;
+
+
 
   
+
+
+      .social-icons{
+
+        display:flex;
+
       }
+  
+    
+
+    body {
+
+        margin: 0;
+        padding: 0;
+        font-size: 50%;
+        max-width: 100%;
+        max-height: 100%;
+
+      }
+
+
+      nav ul {
+
+    
+        font-size: 160%;
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px groove turquoise;
+        background-color: #ff6a37;
+
+
+
+      }
+
+      .titulo_inicio {
+          font-size: 197%;
+          max-height: 20px;
+          
+      }
+
+      .sobre_paragrafos {
+
+        font-size: 150%;
+       padding: 8px;
+       max-width:100%;
+
+      }
+
+      .jovem {
+          margin-right: 30px;
+      }
+
+      .botao {
+          max-width: 80%;
+          margin-top: 20px;
+          margin-bottom: 30px;
+      }
+
+      .livro {
+        width: 50%;
+
+        
+    }
+
+    .logo3 {
+
+        width: 20%;
+        padding-top: 20px;
+    
+    }
   
   
   }
