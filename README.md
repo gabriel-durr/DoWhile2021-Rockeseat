@@ -14,9 +14,17 @@
        <a href="#author">Author</a> |
 </div>
 
+
 <h2 id="the_challenge"> 🌋 The challenge</h2>
 
+<br><br>
 
+Neste desafio você irá desenvolver uma página web utilizando **HTML**, **CSS** e **JavaScript** que deverá resolver o seguinte problema 👇
+
+
+"Pensando em construir o futuro, como você solucionaria os problemas de acesso à educação hoje, utilizando a tecnologia?"
+
+<br>
 
 
 <h2 id="links">🔗 Links</h2>
@@ -25,7 +33,7 @@
 
 - Site Efeitos JS - Vanilla Tilt : https://micku7zu.github.io/vanilla-tilt.js/
 
-
+ <br><br>
 <h2 id="built_with">👷‍♂️ Built with</h2>
 
 
@@ -35,7 +43,7 @@
 
 
 
-
+<br>
 
 <h2 id="what_i_learned">👨‍🎓 What I learned</h2>
 
