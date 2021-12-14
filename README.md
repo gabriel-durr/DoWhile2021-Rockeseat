@@ -52,12 +52,6 @@
 - 
 
 
-  ``` scss
-
- 
-  ```
-  - I know that for this type of challenge react it is not even recommended, but having used it gave me a lot of experience in how to use the tool and it will help me in future projects
-
 
 
 <br>
