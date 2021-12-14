@@ -15,14 +15,13 @@
 </div>
 
 
-<h2 id="the_challenge"> 🌋 The challenge</h2>
-
-<br><br>
-
-Neste desafio você irá desenvolver uma página web utilizando **HTML**, **CSS** e **JavaScript** que deverá resolver o seguinte problema 👇
+<h2 id="the_challenge">🚩  The challenge  </h2>
 
 
-"Pensando em construir o futuro, como você solucionaria os problemas de acesso à educação hoje, utilizando a tecnologia?"
+<p> Neste desafio você irá desenvolver uma página web utilizando <em>HTML</em>,<em>CSS</em> e <em>JavaScript</em> que deverá resolver o seguinte problema 👇
+
+
+"Pensando em construir o futuro, como você solucionaria os problemas de acesso à educação hoje, utilizando a tecnologia?" </p>
 
 <br>
 
@@ -34,7 +33,7 @@ Neste desafio você irá desenvolver uma página web utilizando **HTML**, **CSS*
 - Site Efeitos JS - Vanilla Tilt : https://micku7zu.github.io/vanilla-tilt.js/
 
  <br><br>
-<h2 id="built_with">👷‍♂️ Built with</h2>
+<h2 id="built_with"> 🧙‍♂️ Built with</h2>
 
 
 -  <img class="icon" src="https://img.icons8.com/dusk/22/000000/javascript-logo.png"/>  Javascript
@@ -45,7 +44,7 @@ Neste desafio você irá desenvolver uma página web utilizando **HTML**, **CSS*
 
 <br>
 
-<h2 id="what_i_learned">👨‍🎓 What I learned</h2>
+<h2 id="what_i_learned"> 🧑‍💻 What I learned</h2>
 
 
 -  
@@ -64,5 +63,5 @@ Neste desafio você irá desenvolver uma página web utilizando **HTML**, **CSS*
 <br>
 
 
-<h4 id = "Author">  <em>Feito com💜 Gabriel Dürr M. </em>  </h4>
+<h4 id = "author">  <em>Feito com💜 Gabriel Dürr M. </em>  </h4>
 
