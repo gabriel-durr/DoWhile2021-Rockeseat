@@ -110,7 +110,7 @@ button:hover{
     "titulo imagem" 
     "paragrafo imagem"
     "botao imagem"
-    /65% 1fr
+    /60% 1fr
         ;
 
     column-gap: 50px;
@@ -122,6 +122,13 @@ button:hover{
 .sobre_paragrafos{
 
 grid-area: paragrafo;
+margin-top: 100px; 
+font-size: 1.063rem;
+padding-left: 50px;
+font-weight: 300;
+line-height: 1.7rem;
+max-width: 650px;
+
 
 
 }
@@ -130,10 +137,15 @@ grid-area: paragrafo;
 
 .sobre_image {
 
-     justify-self: center;
-     grid-area: imagem;
+   
+     grid-area: imagem;   
+     margin-top: 130px;
   
 
+}
+
+.livro {
+    width: 490px;
 }
 
 
@@ -141,23 +153,25 @@ grid-area: paragrafo;
     font-weight: 400;
     font-size: 1.1em;
 }
-#sobre h1{
+
+.titulo_inicio {
     position: relative;
     font-weight: bolder;
     font-size: 2.6rem;
-    padding: 0.625rem;
+    margin-top: 3rem;   
     grid-area: titulo;
 
 }
 
 #sobre p{
-    font-size: 1.063rem;
-    margin-bottom: 3.125rem;
-    text-align: justify;
-    line-height: 2;
-    font-weight: 410;
-    margin-left: 2rem;
-    margin-top: 50px;
+
+
+margin-bottom: 3.125rem;
+
+
+
+
+  
 
 }
 
@@ -194,13 +208,16 @@ grid-area: paragrafo;
 #sobre button:hover::before{
     width: 100%;
 }
+
+
+
 #sobre button:hover{
     color: rgb(219, 219, 219);
 }
-#sobre img{
-   max-width: 31.25rem;
-   max-height: 31.25rem;
-}
+
+
+
+
 #sub-content{
     display: grid;
     justify-content: space-between;
@@ -293,139 +310,201 @@ grid-area: paragrafo;
     /*Display Médio */
 
 
-        @media (min-width: 700px) and (max-width: 1270px) {
 
+    @media (max-width: 1300px) {
 
-
-
-        
-
-            #sub-content {
-                display: flex;
-                flex-direction: column;
-                
-            }
-
-            .sub_esquerda {
-
-                width: 100%;
-                max-width: none;
-
-            }
-
-          
-
-
-
-            img {
-                width: 97%;
-            }
-
-
-            .sobre_image{
-                max-width: 600px;
-                margin-left: 100px;
-                margin-top: 10px;
-            }
-
-            .logo3 {
-
-                width: 10%;
-
-            }
-
-
-            .jovem {
-
-                max-width: 140px;
-                top: 100%;
-
-            }
-
-            .sub_esquerda {
-
-                max-width: 500px;
-
-            }
-
-
+        #sobre {
+  
+          grid-template:  
+          "titulo imagem" 
+          "paragrafo paragrafo"
+          "botao ."
+          /50% 1fr
+  
+  
         }
-
-
-        @media (max-width: 1050px) {
-
-          #sobre {
-
-            grid-template:  
-            "titulo imagem" 
-            "paragrafo paragrafo"
-            "botao ."
-            /65% 1fr
-
-
-          }
-
-        }
-
-
-
-
-    /*Display Pequeno */
-
-
-    @media (max-width: 750px) {
-
-
-    .header nav {
-
-        flex-direction: column;
-        row-gap: 20px;
-
-    }
-
+  
         #sub-content {
-            display: flex;
-            flex-direction: column;
-            
-        }
-
-       
-
-        
-
-        img {
-            width: 60%;
-        }
-
-
-        .jovem {
-
-            right: none;
-            top: 100%;right: 50%;
-            transform: translateX(50%);
-
-        }
-
-        .logo3 {
-
-            width: 10%;
-
-        }
-
-        .sobre_image{
-            max-width: 400px;
-            margin-left: 60px;
-            margin-top: 20px;
-        }
-
-   
-
+          display: flex;
+          flex-direction: column;
+          
+      }
+  
+  
+     
+      .titulo_inicio {
+  
+          font-size: 250%;
+  
+      }
+  
+      .sobre_paragrafos {
+          max-width: 80%;
+      }
+  
     
+  
+  
+  
+      .livro {
+          width: 90%;
+          
+      }
+  
+  
+      .sobre_image{
+        margin: 0 auto;
+      }
+  
+      .logo3 {
+  
+          width: 10%;
+  
+      }
+  
+  
+      .jovem {
+  
+          max-width: 200px;
+          
+  
+      }
+  
+      .sub_esquerda {
+  
+          max-width: 600px;
+  
+  
+      }
+  
+  
+      .social-icons {
+  
+          margin: 0 auto;
+          max-width:400px ;
+  
+      }
+  
+  
+      }
+  
+  
+  /*Display Pequeno */
+  
+  
+  @media (max-width: 800px) {
+  
+  
+  .header nav {
+  
+      flex-direction: column;
+      row-gap: 20px;
+  
+  }
+  
+      #sub-content {
+          display: flex;
+          flex-direction: column;
+          
+      }
+
+
+
+    .titulo_inicio {
+        font-size: 170%;
     }
 
 
   
-                               
+     
+  
+      
+  
+     .livro {
+          width: 100%;
 
+          
+      }
+  
+  
+      .jovem {
+  
+          right: none;
+          top: 85%;
+          right: calc(50% - 100px);
+  
+  
+      }
+  
+      
+  
+  
+  
+  
+      #sub-content .sub_esquerda p {
+  
+          margin: 0;
+          max-width: none;
+          width: 100%;
+  
+      }
+  
+      .sub_esquerda button {
+  
+          margin-bottom: 50px;
+  
+      }
+  
+  
+      .logo3 {
+  
+          width: 10%;
+  
+      }
+  
+      .sobre_image{
+          max-width: 90%;
+          margin-top: 20px;
+  
+      }
+  
+      .social-icons {
+  
+          margin: 0 auto;
+          margin-top: 70px;
+          max-width:400px ;
+  
+      }
+  
+  
+  
+  
+  }
+  
+  
+  @media (max-width: 500px) {
+  
+  
+      #sobre {
+  
+          grid-template:  
+          "titulo"
+          "imagem" 
+          "paragrafo"
+          "paragrafo"
+          "botao"
+          /1fr 
+      }
+  
+  
+      .social-icons {
+  
+          
+          display: flex;
+          flex-wrap: wrap;
 
-
+  
+      }
+  
+  
+  }
