@@ -24,7 +24,7 @@ button:hover{
     background: linear-gradient(to left, #a37fe7, #200a47);
     min-height: 100vh;
     line-height: 1.5;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
   }
   
   .container{
@@ -106,15 +106,32 @@ button:hover{
 #sobre{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-bottom: 3.125rem;
+    grid-template:  
+    "titulo imagem" 
+    "paragrafo imagem"
+    "botao imagem"
+    /65% 1fr
+        ;
+
+    column-gap: 50px;
+
+
 
 }
+
+.sobre_paragrafos{
+
+grid-area: paragrafo;
+
+
+}
+
 
 
 .sobre_image {
 
      justify-self: center;
+     grid-area: imagem;
   
 
 }
@@ -127,17 +144,20 @@ button:hover{
 #sobre h1{
     position: relative;
     font-weight: bolder;
-    font-size: 1.8rem;
+    font-size: 2.6rem;
+    padding: 0.625rem;
+    grid-area: titulo;
+
 }
 
 #sobre p{
-    font-size: 0.87rem;
+    font-size: 1.063rem;
     margin-bottom: 3.125rem;
     text-align: justify;
     line-height: 2;
-    font-weight: 400;
-    margin-left: 0.8rem;
-    max-width:36.25rem;
+    font-weight: 410;
+    margin-left: 2rem;
+    margin-top: 50px;
 
 }
 
@@ -155,6 +175,7 @@ button:hover{
     background: none;
     font-size: 1.5em;
     transition: all .5s ease-in-out;
+    grid-area: botao;
 }
 
 
@@ -193,7 +214,6 @@ button:hover{
     position: relative;
     width: 100%;
     background: linear-gradient(to left, #a68ed4, #2e1163);
-    height: 12.5rem;
     min-height: 12.5rem;
     box-sizing: border-box;
     border-radius: 2%;
@@ -204,12 +224,16 @@ button:hover{
     max-width: 31.25rem;
     
 }
-#sub-content .sub_esquerda img{
+
+.jovem{
     position: absolute;
     top: 15px;
     right: -4.688rem;
     border: 0.813rem solid #dfdae9;
+
 }
+
+
 #sub-content .sub_esquerda button{
     position: relative;
     background: none;
@@ -274,24 +298,34 @@ button:hover{
 
 
 
+        
+
             #sub-content {
                 display: flex;
                 flex-direction: column;
                 
             }
 
-            body {
-                font-size: 90%;
+            .sub_esquerda {
+
+                width: 100%;
+                max-width: none;
+
             }
+
+          
+
+
 
             img {
                 width: 97%;
             }
 
+
             .sobre_image{
                 max-width: 600px;
                 margin-left: 100px;
-                margin-top: 120px;
+                margin-top: 10px;
             }
 
             .logo3 {
@@ -304,6 +338,7 @@ button:hover{
             .jovem {
 
                 max-width: 140px;
+                top: 100%;
 
             }
 
@@ -317,19 +352,36 @@ button:hover{
         }
 
 
+        @media (max-width: 1050px) {
+
+          #sobre {
+
+            grid-template:  
+            "titulo imagem" 
+            "paragrafo paragrafo"
+            "botao ."
+            /65% 1fr
+
+
+          }
+
+        }
+
+
 
 
     /*Display Pequeno */
 
 
-    @media (max-width: 700px) {
+    @media (max-width: 750px) {
 
 
-        html {
-            font-size: 50%;
+    .header nav {
 
-    
-        }
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
 
         #sub-content {
             display: flex;
@@ -337,22 +389,20 @@ button:hover{
             
         }
 
-        .sub_esquerda {
-
-            max-width: 280px;
-
-        }
+       
 
         
 
         img {
-            width: 50%;
+            width: 60%;
         }
 
 
         .jovem {
 
-            max-width: 70px;
+            right: none;
+            top: 100%;right: 50%;
+            transform: translateX(50%);
 
         }
 
@@ -362,10 +412,19 @@ button:hover{
 
         }
 
+        .sobre_image{
+            max-width: 400px;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+
    
 
     
     }
+
+
+  
                                
 
 
