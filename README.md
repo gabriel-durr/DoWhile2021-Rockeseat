@@ -36,9 +36,9 @@
 <h2 id="built_with"> 🧙‍♂️ Built with</h2>
 
 
--  <img class="icon" src="https://img.icons8.com/dusk/22/000000/javascript-logo.png"/>  Javascript
--  <img class="icon" src="https://img.icons8.com/dusk/22/000000/css3.png"/>   CSS3
--  <img class="icon" src="https://img.icons8.com/color/24/000000/html-5--v1.png"/>  HTML
+<img class="icon" src="https://img.icons8.com/dusk/22/000000/javascript-logo.png"/>  Javascript
+<img class="icon" src="https://img.icons8.com/dusk/22/000000/css3.png"/>   CSS3
+<img class="icon" src="https://img.icons8.com/color/24/000000/html-5--v1.png"/>  HTML
 
 
 
