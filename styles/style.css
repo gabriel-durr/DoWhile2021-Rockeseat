@@ -134,13 +134,11 @@ nav ul li{
     display: grid;
     grid-template:  
     "titulo imagem" 
-    "paragrafo imagem"
     "paragrafo formulario"
-    "paragrafo  botao"
-    /60% 1fr
-        ;
+    "jovemp-p formulario"
+    /1fr;
 
-    column-gap: 50px;
+    /* column-gap: 20px; */
 
 
 
@@ -149,8 +147,8 @@ nav ul li{
 .sobre_paragrafos{
 
 grid-area: paragrafo;
-margin-top: 100px; 
-font-size: 1.063rem;
+margin-top: 110px; 
+font-size: 1.070rem;
 padding-left: 50px;
 font-weight: 300;
 line-height: 1.7rem;
@@ -206,6 +204,11 @@ margin-bottom: 3.125rem;
 */
 
 
+#sub-content {
+
+    grid-area: jovem-p;
+
+}
 
 
 #sub-content{
@@ -229,6 +232,7 @@ margin-bottom: 3.125rem;
 #sub-content .sub_esquerda p{
     width: 80%;
     max-width: 31.25rem;
+    font-weight: 400;
     
 }
 
@@ -247,6 +251,12 @@ margin-bottom: 3.125rem;
 
 */
 
+
+.social-icons {
+
+    margin-left: 225px;
+
+}
 
 #sub-content .social-icons img{
     position: relative;
@@ -285,15 +295,15 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
 
 
-    @media (max-width: 1300px) {
+    @media (max-width: 800px) {
 
         #sobre {
   
           grid-template:  
           "titulo imagem" 
           "paragrafo paragrafo"
-          "botao ."
-          /50% 1fr
+          "formulario  formulario"
+          / 1fr
         
   
         }
@@ -367,7 +377,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
   /*Display Pequeno */
   
   
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
   
   
   .header nav {
@@ -424,11 +434,6 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
   
       }
   
-      .sub_esquerda button {
-  
-          margin-bottom: 50px;
-  
-      }
   
   
       .logo3 {
@@ -450,6 +455,10 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
           max-width:400px ;
   
       }
+
+    
+
+
   
   
   
@@ -467,7 +476,8 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
           "imagem" 
           "paragrafo"
           "paragrafo"
-          "botao"
+          "formulario"
+    
           /1fr 
       }
 
@@ -516,7 +526,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
       .sobre_paragrafos {
 
-        font-size: 150%;
+        font-size: 170%;
        padding: 8px;
        max-width:100%;
 
@@ -527,13 +537,15 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
       }
 
       .botao {
-          max-width: 80%;
+          max-width: 100%;
           margin-top: 20px;
           margin-bottom: 30px;
       }
 
       .livro {
         width: 50%;
+        margin-top: 20px;
+        margin-left: 70px;
 
         
     }
@@ -544,6 +556,22 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
         padding-top: 20px;
     
     }
+
+    .sub_esquerda {
+        font-size: 0.7rem;
+    }
+
+
+    #sub-content .sub_esquerda button{
+     
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-top: 20px !important;
+        font-size: 130% !important;
+        
+
+
+  }
   
   
   }
