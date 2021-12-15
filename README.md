@@ -34,7 +34,7 @@
 
 <h2 id="links">🔗 Links</h2>
 
-- Site URL: []()
+- Deploy Github: https://gabriel-durr.github.io/DoWhile2021-Rockeseat/
 
 - Animações JS - Vanilla Tilt : https://micku7zu.github.io/vanilla-tilt.js/
 
