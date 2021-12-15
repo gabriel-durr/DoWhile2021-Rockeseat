@@ -30,15 +30,18 @@
 
 - Site URL: []()
 
-- Site Efeitos JS - Vanilla Tilt : https://micku7zu.github.io/vanilla-tilt.js/
+- Animações JS - Vanilla Tilt : https://micku7zu.github.io/vanilla-tilt.js/
 
  <br><br>
 <h2 id="built_with"> 🧙‍♂️ Built with</h2>
 
 
--  <img class="icon" src="https://img.icons8.com/dusk/22/000000/javascript-logo.png"/>  Javascript
--  <img class="icon" src="https://img.icons8.com/dusk/22/000000/css3.png"/>   CSS3
--  <img class="icon" src="https://img.icons8.com/color/24/000000/html-5--v1.png"/>  HTML
+ 
+<img class="icon" src="https://img.icons8.com/dusk/22/000000/javascript-logo.png"/>   ``Javascript`` <br>
+<img class="icon" src="https://img.icons8.com/dusk/22/000000/css3.png"/>     ``CSS3``  <br>
+<img class="icon" src="https://img.icons8.com/color/24/000000/html-5--v1.png"/>     ``HTML``  <br>
+ 
+
 
 
 
@@ -47,12 +50,11 @@
 <h2 id="what_i_learned"> 🧑‍💻 What I learned</h2>
 
 
--  
+- Mesmo sendo um projeto simples, me possibilitou colocar em prática conceitos / conhecimentos que eu tinha como teoria apenas, me fez aprender e buscar meios e ferramentas para solucionar problemas que vinham surgindo conforme o desenvolvimento. 
 
-- 
+- Uma das coisas que gostei muito é desenvolver algo com total liberdade criativa, tendo algumas idéias e aplicando conforme minha base de conhecimento. 
 
-
-
+- Entendi, que em um projeto vai muito além de código, existem inúmeros fatores importantes, principalmente ao publico / problema que irá se destinar 🤔
 
 <br>
 
