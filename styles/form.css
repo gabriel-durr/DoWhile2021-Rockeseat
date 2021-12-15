@@ -1,0 +1,136 @@
+
+/* 
+        __~~Formulario / BUTTON ~~__       
+*/ 
+
+
+.formulario {
+
+  grid-area: formulario;
+
+  max-width: 17rem;
+  font-size: 1.125rem;
+
+  }
+
+
+
+.formulario label,
+.formulario input,
+.formulario textarea,
+.formulario button {
+
+  display: block;
+  width: 100%;
+
+}
+
+.formulario label {
+
+  color: white;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+
+}
+
+
+.formulario input, 
+.formulario textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: border-color, 
+  box-shadow 0.2s;
+}
+
+
+.formulario textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+
+.formulario input:hover,
+.formulario input:focus,
+.formulario textarea:hover,
+.formulario textarea:focus {
+
+  outline: none;
+  border-color: turquoise;
+  box-shadow: 0 0 0 3px turquoise;
+
+
+}
+
+
+.botao {
+  max-width: 80%;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+
+#sobre button{
+  color: #d19616;
+  font-weight: bold;
+  position: relative;
+  padding: 0.625rem 2.188rem 1.25rem 3.75rem;
+  border: none;
+  background: none;
+  font-size: 1.5em;
+  transition: all .5s ease-in-out;
+  grid-area: botao;
+}
+
+
+#sobre button::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffffff25;
+  width: 30%;
+  height: 100%;
+  border-radius: 3px;
+  z-index: -1;
+  transition: all .5s ease-in-out;
+}
+#sobre button:hover::before{
+  width: 100%;
+}
+
+
+
+#sobre button:hover{
+  color: rgb(219, 219, 219);
+  margin-right: 400px;
+}
+
+
+
+#sub-content .sub_esquerda button{
+  position: relative;
+  background: none;
+  border: none;
+  margin-top: 0.938rem;
+  transition: all .5s ease-in-out;
+}
+#sub-content .sub_esquerda button::after{
+  content: '::-';
+  position: absolute;
+  right: -1.563rem;
+  transition: all .5s ease-in-out;
+}
+#sub-content .sub_esquerda button:hover::after{
+  right: -2.188rem;
+  color: #d19616;;
+}
+#sub-content .sub_esquerda button:hover{
+  color: #d19616;
+}
+
+button:hover{
+  cursor: pointer;
+}

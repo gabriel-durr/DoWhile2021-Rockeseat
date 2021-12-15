@@ -78,9 +78,7 @@ ___~~~~~~~~~ MENU ~~~~~~~~~~___
 
 
 
-button:hover{
-    cursor: pointer;
-  }
+
 
 nav ul{
     display: flex;
@@ -137,7 +135,8 @@ nav ul li{
     grid-template:  
     "titulo imagem" 
     "paragrafo imagem"
-    "botao imagem"
+    "paragrafo formulario"
+    "paragrafo  botao"
     /60% 1fr
         ;
 
@@ -202,55 +201,9 @@ margin-bottom: 3.125rem;
 
 
 
-
 /*
-    ___~~~~~ BOTÕES / QUADRO  ~~~~~~___
-
+    ___~~~~~ PARAGRÁFO COM QUADRO  ~~~~~~___
 */
-
-
-.botao {
-    max-width: 80%;
-    margin-top: 40px;
-    margin-bottom: 70px;
-}
-
-
-#sobre button{
-    color: #d19616;
-    font-weight: bold;
-    position: relative;
-    padding: 0.625rem 2.188rem 1.25rem 3.75rem;
-    border: none;
-    background: none;
-    font-size: 1.5em;
-    transition: all .5s ease-in-out;
-    grid-area: botao;
-}
-
-
-#sobre button::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #ffffff25;
-    width: 30%;
-    height: 100%;
-    border-radius: 3px;
-    z-index: -1;
-    transition: all .5s ease-in-out;
-}
-#sobre button:hover::before{
-    width: 100%;
-}
-
-
-
-#sobre button:hover{
-    color: rgb(219, 219, 219);
-    margin-right: 400px;
-}
 
 
 
@@ -285,28 +238,6 @@ margin-bottom: 3.125rem;
     right: -4.688rem;
     border: 0.813rem solid #dfdae9;
 
-}
-
-
-#sub-content .sub_esquerda button{
-    position: relative;
-    background: none;
-    border: none;
-    margin-top: 0.938rem;
-    transition: all .5s ease-in-out;
-}
-#sub-content .sub_esquerda button::after{
-    content: '::-';
-    position: absolute;
-    right: -1.563rem;
-    transition: all .5s ease-in-out;
-}
-#sub-content .sub_esquerda button:hover::after{
-    right: -2.188rem;
-    color: #d19616;;
-}
-#sub-content .sub_esquerda button:hover{
-    color: #d19616;
 }
 
 
