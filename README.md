@@ -3,12 +3,13 @@
 <div style="align-self: center;align-items: center; display: flex; justify-content: space-between; width: 150px;" >
 <h1 align="center" class="line-1 anim-typewriter">Rocket in Schools</h1>
 
+
+<img align="center" src="https://media4.giphy.com/media/j46HrQ4CXrdl7c88be/giphy.gif?cid=790b7611bd63eae1384b26f27d9880aeff37c0668caedcad&rid=giphy.gif&ct=g" width="47%" >
   
-<img align="center" src="https://i.imgur.com/NweA7wO.png">
-   <br><br>
-<img align="center" src="https://media4.giphy.com/media/j46HrQ4CXrdl7c88be/giphy.gif?cid=790b7611bd63eae1384b26f27d9880aeff37c0668caedcad&rid=giphy.gif&ct=g">
-    
-<img align="center" src="https://media3.giphy.com/media/CLxFoVJFRtfd226oAX/giphy.gif?cid=790b7611646acd6aeafbc9212054adf68810409df9774243&rid=giphy.gif&ct=g">
+  
+<img align="center" src="https://media3.giphy.com/media/CLxFoVJFRtfd226oAX/giphy.gif?cid=790b7611646acd6aeafbc9212054adf68810409df9774243&rid=giphy.gif&ct=g" width="47%">
+ 
+ </div>
 
 
 <div align="center"  class="links">
@@ -16,7 +17,9 @@
      <a href="#links">Links</a> |
       <a href="#built_with">Built with</a> |
        <a href="#author">Author</a> |
-</div>
+
+  
+ </div>
     
   <br><br>
 
