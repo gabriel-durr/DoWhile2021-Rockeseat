@@ -117,9 +117,9 @@ nav ul li{
   */
 
   .titulo_inicio {
-      padding: 80px;
+      padding: 5rem;
       color: rgb(255, 251, 250);
-      text-shadow: 0px 1px 1px rgb(223, 70, 43);
+      text-shadow: 0px 0.063rem 0.063rem rgb(223, 70, 43);
   }
 
 
@@ -147,12 +147,12 @@ nav ul li{
 .sobre_paragrafos{
 
 grid-area: paragrafo;
-margin-top: 110px; 
+margin-top: 6.875rem; 
 font-size: 1.070rem;
-padding-left: 50px;
+padding-left: 3.125rem;
 font-weight: 300;
 line-height: 1.7rem;
-max-width: 650px;
+max-width: 40.625rem;
 
 
 
@@ -164,7 +164,7 @@ max-width: 650px;
 
    
      grid-area: imagem;   
-     margin-top: 130px;
+     margin-top: 8.125rem;
   
 
 }
@@ -239,7 +239,7 @@ margin-bottom: 3.125rem;
 
 .jovem{
     position: absolute;
-    top: 15px;
+    top: 0.938rem;
     right: -4.688rem;
     border: 0.813rem solid #dfdae9;
 
@@ -255,7 +255,7 @@ margin-bottom: 3.125rem;
 
 .social-icons {
 
-    margin-left: 225px;
+    margin-left: 14.063rem;
 
 }
 
@@ -263,7 +263,7 @@ margin-bottom: 3.125rem;
     position: relative;
     top: 0;
     width: 2.5rem;
-    margin: 9.375rem 0.313rem 0px 0.625rem;
+    margin: 9.375rem 0.313rem 0rem 0.625rem;
     border-radius: 50%;
     opacity: .8;
     transition: all .5s ease-in-out;
@@ -521,33 +521,33 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
       .titulo_inicio {
           font-size: 197%;
-          max-height: 20px;
+          max-height: 1.25rem;
           
       }
 
       .sobre_paragrafos {
 
         font-size: 170%;
-       padding: 8px;
+       padding: 0.5rem;
        max-width:100%;
 
       }
 
       .jovem {
-          margin-right: 30px;
-          margin-top: 30px;
+          margin-right: 1.875rem;
+          margin-top: 1.875rem;
       }
 
       .botao {
           max-width: 100%;
-          margin-top: 20px;
-          margin-bottom: 30px;
+          margin-top: 1.25rem;
+          margin-bottom: 1.875rem;
       }
 
       .livro {
         width: 50%;
-        margin-top: 20px;
-        margin-left: 70px;
+        margin-top: 1.25rem;
+        margin-left: 4.375rem;
 
         
     }
@@ -555,7 +555,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
     .logo3 {
 
         width: 20%;
-        padding-top: 20px;
+        padding-top: 1.25rem;
     
     }
 
@@ -568,7 +568,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
      
         margin: 0 !important;
         padding: 0 !important;
-        margin-top: 20px !important;
+        margin-top: 1.25rem !important;
         font-size: 100% !important;
         
 

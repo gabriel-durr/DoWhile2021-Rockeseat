@@ -5,8 +5,8 @@
 
 
 .formulario h3 {
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
   color: rgb(255,106,55);
   font-size: 1.4rem;
   font-weight: bold;
@@ -16,15 +16,15 @@
 .formulario {
 
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 6.875rem;
   grid-area: formulario;
 
  
   font-size: 1rem;
   background-color: rgba(76, 9, 131, 0.568);
-  padding: 20px 20px ;
+  padding: 1.25rem 1.25rem ;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   }
 
@@ -49,7 +49,7 @@
 }
 
 #message {
-border-radius: 20px;
+border-radius: 1.25rem;
 }
 
 
@@ -58,8 +58,8 @@ border-radius: 20px;
   font: inherit;
   padding: 0.5rem;
   margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 7px;
+  border: 0.063rem solid transparent;
+  border-radius: 0.438rem;
   color: black;
   transition: border-color, 
   box-shadow 0.2s;
@@ -79,7 +79,7 @@ border-radius: 20px;
 
   outline: none;
   border-color: rgb(255,106,55);
-  box-shadow: 0 0 0 3px rgb(255,106,55);
+  box-shadow: 0 0 0 0.188rem rgb(255,106,55);
 
 
 }
@@ -87,15 +87,15 @@ border-radius: 20px;
 
 .botao {
   max-width: 70%;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
 }
 
 
 #sobre button{
   font-weight: bold;
   position: relative;
-  padding: 15.7px;
+  padding: 0.981rem;
   border: none;
   background: none;
   font-size: 1.2em;
@@ -110,10 +110,10 @@ border-radius: 20px;
   top: 0;
   left: 0;
   background: #ffffff;
-  border: 1px solid rgba(255, 99, 71, 0.205);
+  border: 0.063rem solid rgba(255, 99, 71, 0.205);
   width: 30%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   z-index: -1;
   transition: all .5s ease-in-out;
 }
@@ -131,7 +131,7 @@ border-radius: 20px;
 
 #sub-content .sub_esquerda button{
   position: relative;
-  margin-left: 310px;
+  margin-left: 19.375rem;
   font-size: 1.1rem;
   background: none;
   border: none;
