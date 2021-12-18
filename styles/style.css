@@ -497,20 +497,17 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
     body {
 
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
-        font-size: 40%;
-        max-width: 100%;
-        max-height: 100%;
+        font-size: 50%;
 
       }
 
 
       nav ul {
 
-        font-size: 120%;
+        font-size: 0.520rem;
         margin-top: 20px;
-        padding: 2px;
         border: 1px groove turquoise;
         background-color: #ff6a37;
 
@@ -560,7 +557,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
     }
 
     .sub_esquerda p{
-        font-size: 0.1rem;
+        font-size: 160% !important;
     }
 
 
@@ -582,18 +579,14 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
   .formulario label{
 
-    font-size: 14px !important;
+    font-size: 12px !important;
 
   }
 
   .botao {
 
-    font-size: 17px !important;
+    font-size: 12px !important;
 
   }
 
-
-
-  
-  
   }
