@@ -467,7 +467,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
   }
   
   
-  @media (max-width: 500px) {
+  @media (max-width: 520px) {
   
   
       #sobre {
@@ -499,7 +499,7 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
         margin: 0;
         padding: 0;
-        font-size: 50%;
+        font-size: 40%;
         max-width: 100%;
         max-height: 100%;
 
