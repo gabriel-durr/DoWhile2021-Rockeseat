@@ -508,9 +508,9 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
 
       nav ul {
 
-        font-size: 140%;
+        font-size: 152%;
         margin-top: 20px;
-        padding: 10px;
+        padding: 5px;
         border: 1px groove turquoise;
         background-color: #ff6a37;
 
@@ -519,14 +519,14 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
       }
 
       .titulo_inicio {
-          font-size: 197%;
+          font-size: 230%;
           max-height: 1.25rem;
           
       }
 
       .sobre_paragrafos {
 
-        font-size: 170%;
+        font-size: 190%;
        padding: 0.5rem;
        max-width:100%;
 
@@ -538,9 +538,10 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
       }
 
       .botao {
-          max-width: 100%;
+          max-width: 60%;
           margin-top: 1.25rem;
           margin-bottom: 1.875rem;
+    
       }
 
       .livro {
@@ -558,8 +559,8 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
     
     }
 
-    .sub_esquerda {
-        font-size: 0.7rem;
+    .sub_esquerda p{
+        font-size: 0.1rem;
     }
 
 
@@ -568,9 +569,26 @@ Créditos: Prof Mayk Brito, Rockeseat  💜 ~~__
         margin: 0 !important;
         padding: 0 !important;
         margin-top: 1.25rem !important;
-        font-size: 100% !important;
+        font-size: 80% !important;
         
 
+  }
+
+  .formulario h3 {
+
+    font-size: 17px !important;
+
+  }
+
+  .formulario label{
+
+    font-size: 14px !important;
+
+  }
+
+  .botao {
+
+    font-size: 17px !important;
 
   }
 
