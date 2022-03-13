@@ -1,6 +1,7 @@
-# DoWhile2021-Rockeseat
+<h1 align="center"> DoWhile2021-Rockeseat </h1>
 
-<div style="align-self: center;align-items: center; display: flex; justify-content: space-between; width: 150px;" >
+<div align="center">
+  
 <h2 align="center" class="line-1 anim-typewriter">Rocket in Schools</h2>
 
 
